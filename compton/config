@@ -1,0 +1,6 @@
+opacity-rule = [
+	"90:class_g = 'UXTerm' && focused",
+	"75:class_g = 'UXTerm' && !focused",
+	"90:class_g = 'st-256color' && focused",
+	"75:class_g = 'st-256color' && !focused"
+];
