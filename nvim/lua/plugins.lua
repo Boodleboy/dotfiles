@@ -30,6 +30,9 @@ local plugins = {
 	-- <C-a> and <C-x> now work better with dates
 
 	{'tpope/vim-endwise' } -- auto-add 'fi' after 'if', and similar
+
+	'tpope/vim-fugitive' -- git plugin
+	-- :Git for git commands with some nice wrappers
 }
 
 require("lazy").setup(plugins)
