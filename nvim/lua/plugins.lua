@@ -31,8 +31,10 @@ local plugins = {
 
 	{'tpope/vim-endwise' } -- auto-add 'fi' after 'if', and similar
 
-	'tpope/vim-fugitive' -- git plugin
+	'tpope/vim-fugitive', -- git plugin
 	-- :Git for git commands with some nice wrappers
+	
+	'romainl/vim-cool' -- automatic :noh after search
 }
 
 require("lazy").setup(plugins)
