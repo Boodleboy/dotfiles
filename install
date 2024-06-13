@@ -2,5 +2,7 @@
 
 XDG_CONFIG_HOME=${XDG_CONFIG_HOME:=~/.config}
 
-cp -r nvim $XDG_CONFIG_HOME/nvim
+echo $XDG_CONFIG_HOME/nvim
+
+cp -r ./nvim/* $XDG_CONFIG_HOME/nvim
 
