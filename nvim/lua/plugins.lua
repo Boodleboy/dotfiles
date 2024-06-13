@@ -34,7 +34,9 @@ local plugins = {
 	'tpope/vim-fugitive', -- git plugin
 	-- :Git for git commands with some nice wrappers
 	
-	'romainl/vim-cool' -- automatic :noh after search
+	'romainl/vim-cool', -- automatic :noh after search
+
+	'junegunn/fzf.vim' -- fuzzy finder integration. more commands in init
 }
 
 require("lazy").setup(plugins)

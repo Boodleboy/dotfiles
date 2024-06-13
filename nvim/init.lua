@@ -9,3 +9,4 @@ vim.opt.shiftwidth = 4
 vim.opt.textwidth = 80
 vim.opt.mouse = 'a'
 
+require("mappings")
