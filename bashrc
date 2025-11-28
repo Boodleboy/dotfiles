@@ -5,9 +5,12 @@
 
 alias xqr='xbps-query -Rs'
 alias ls='ls --color=auto'
+alias grep='grep --color=auto'
 alias vim='nvim'
 alias sudo='sudo '
 PS1='\[`[ $? = 0 ] && X=2 || X=1; tput setaf $X`\]\h\[`tput sgr0`\]:\w\$ '
+#default arch prompt
+#PS1='[\u@\h \W]\$ '
 
 # vim mode
 set editing-mode vi
