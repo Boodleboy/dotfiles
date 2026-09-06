@@ -29,3 +29,9 @@ PAGER=less
 
 # less options
 export LESS=' --mouse -I -R -F -S -X'
+
+# Include local packages in pkg-config
+export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
+
+# opencode
+export PATH=/home/jacob/.opencode/bin:$PATH
